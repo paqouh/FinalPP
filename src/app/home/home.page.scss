@@ -1,0 +1,95 @@
+#background{
+  background-color: green;
+}
+
+
+#container {
+  text-align: center;
+
+  background-color: green;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+#Upper{
+  height: 150px;
+  background: red;
+}
+#head-text{
+  position: absolute;
+  top: 115px;
+  left: 5px;
+
+  font-family: 'Andalé Mono';
+  font-style: Bold;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  text-align: center;
+  color: #FFFFFF;
+}
+#name{
+  background-color: green;
+  width: 100px;
+  height: 100px;
+  left: 0px;
+
+  position: relative  ;
+}
+#one{
+  background-color: green;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+}
+#two{
+  background-color: red;
+  position: absolute;
+}
+#img{
+  width: 150px;
+  height: 150px;
+  left: 100px;
+}
+#login-button{
+  --background: #95CD41;
+    width: 200px;
+    height: 50px;
+
+  --border-radius: 20px;
+}
+#signup-button{
+  --background: #2C3333;
+    width: 200px;
+    height: 50px;
+
+  --border-radius: 20px;
+}
+#button-frame{
+  position: absolute;
+  width: 205px;
+  height: 110px;
+  left: 75px;
+  top: 60%;
+}

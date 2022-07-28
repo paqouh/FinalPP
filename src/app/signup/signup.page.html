@@ -1,0 +1,47 @@
+<ion-header [translucent]="true" id="Upper">
+
+  <ion-content>
+    <div class="mid">
+      <div class="logo">
+        <ion-img id="img" src ="assets\img\2.png"></ion-img>
+      </div>
+    </div>
+  </ion-content>
+
+</ion-header>
+
+
+<ion-content [fullscreen]="true" id="background">
+<br>
+
+<div>
+<ion-card>
+  <ion-item>
+    <ion-label position="floating">Full Name</ion-label>
+    <ion-input [(ngModel)]="Fname"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Email</ion-label>
+    <ion-input type="Email"[(ngModel)]="Email"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Password</ion-label>
+    <ion-input type="Password"[(ngModel)]="Password"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label position="floating">Confirm Password</ion-label>
+    <ion-input type="Password"[(ngModel)]="C_Password"></ion-input>
+  </ion-item>
+</ion-card>
+<br><br><br>
+
+<ion-button (click)="btnClicked()" color="success" expand="block">Signup</ion-button>  
+</div>
+<br><br><br>
+
+
+
+
+
+
+</ion-content>
